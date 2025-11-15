@@ -1,1 +1,25 @@
+# Site settings
+title: Daniel Esqueda
+email: danielesqueda321@gmail.com
+description: >- # this means “fold newlines”
+  Personal portfolio website.
+baseurl: "" # the subpath of your site, e.g., /myportfolio
+url: "https://danielesqueda.github.io" # your site URL
+
+# Theme
 theme: jekyll-theme-dinky
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation (sidebar links)
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about/
+  - text: Projects
+    url: /projects/
+  - text: Contact
+    url: /contact/
